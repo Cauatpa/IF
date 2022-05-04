@@ -1,0 +1,4 @@
+Olá, meu nome e Cauã Thurler e esse e meu projeto final do curso de desenvolvimento web do IF-Sertãozinho
+
+
+Para acessar o site e so abrir o arquivo home.html
