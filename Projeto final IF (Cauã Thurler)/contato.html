@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TurismoFri</title>
+        <link rel="stylesheet" type="text/css" href="header.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" type="text/css" href="contato.css">
+        <script src="contato.js"></script>
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <img width="250" height="250" src="imgs/logo.png">
+            <h1 class="nomePrin">TurismoFri</h1>
+                <nav class="menuNav">
+                    <ul class="menuLista">
+                        <li class="menuItem"> <a class="menuLink" href="home.html">Home</a></li>
+                        <li class="menuItem"> <a class="menuLink" href="montanhas.html">Montanhas</a></li>
+                        <li class="menuItem"> <a class="menuLink" href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+        </header>
+
+
+        <main class="principal">
+            <h1 class="texto">Entre em contato com nosco</h1>
+            <form class="fromDiv">
+                <div class="info">
+                    <label>Nome Completo</label>
+                    <input id="nomecompletoid" type="text" name="NomeCompleto">
+                </div>
+
+                <div class="info">
+                    <label>E-mail</label>
+                    <input id="emailid" type="email" name="Email"> 
+                </div>
+
+                <div class="info">
+                    <label>Telefone</label>
+                    <input id="telid" type="tel" name="telefone">
+                </div>
+
+                <div class="info">
+                    <label>Mensagem</label>
+                    <textarea></textarea>
+                </div>
+
+                <div class="info">
+                    <input class="btn" type="button" onclick="Enviar();" value="Enviar"/>
+                </div>
+            </form>
+        </main>
+
+
+        <footer class="rodape">
+            <img width="250" height="250" src="imgs/logo.png">
+           
+            <div>
+                <li class="menuItem"> <a class="menuLink" href="home.html">Home</a></li>
+                <li class="menuItem"> <a class="menuLink" href="montanhas.html">Montanhas</a></li>
+                <li class="menuItem"> <a class="menuLink" href="contato.html">Contato</a></li>
+            </div>
+           
+            <p class="name">™2022 TurismoFri</p>
+        </footer>
+    </body>
+</html>

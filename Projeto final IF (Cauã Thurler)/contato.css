@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(160, 160, 160);
+}
+
+.principal{
+    text-align: center;
+    padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.texto{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fromDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 10px;
+    background-color: #267e3f;
+}

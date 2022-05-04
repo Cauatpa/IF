@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    width: 100%;
+    background: #267e3f;
+    display: flex;
+    justify-content: space-between;
+	padding-right: 1px;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    box-shadow: 0 0 1rem black;
+     
+}
+
+.menuNav{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.menuLista{
+    margin-left: 0%;
+    margin-bottom: 100px;
+    padding-right: 20px;
+}
+
+.menuItem{
+    display: inline;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.menuLink{
+    color: black;
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0.4em;
+	text-decoration: none;
+}
+
+.menuLink:hover{
+    color: white;
+}
+
+.nomePrin{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: Arial;
+    font-size: 300%;
+    padding-top: 2em;
+    padding-right: 18em;
+}
